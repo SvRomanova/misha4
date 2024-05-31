@@ -1,0 +1,224 @@
+
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(192, 247, 192) ;
+}
+
+header {
+    position: relative;
+    height: 6%;
+    top: 70px;
+    width: 100%;
+    background-color: #93E850;
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav {
+    position: absolute;
+    width: 60%;
+    left: 185px;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+
+.nav-link:first-child {
+    color:#1E1E1E;
+}
+
+.nav-link:hover:first-child{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 2300px;
+    height: 575px;
+    left: 0px;
+    background:#93E850 ;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #575757;
+}
+.footer-img{
+    width: 75px;
+    height: 75px;
+    margin-right: 3%;}
+    main {
+        position: absolute;
+        top: 150px;
+    }
+.q1 h1{
+        
+    }
+.q1 img{
+    width: 340px;
+    height: 275px;
+    position: relative;
+    left: 60%;
+    bottom: 275px;
+    opacity: 0.5;
+    transition: 1s linear;
+    
+    
+}
+.q1 p{
+    width: 60%;
+    height: 230px;
+    
+}
+.h1{
+    position: relative;
+    left: 257px;
+    bottom:225px;
+
+}
+.q2 img{
+    width: 268px;
+    height: 250px;
+    position: relative;
+    bottom:480px;
+    opacity: 0.5;
+    transition: 1s linear;
+    
+}
+.q2 h2{
+position: relative;
+left: 284px;
+bottom: 221px;
+}
+.q2 ul{
+    position: relative;
+    left: 270px;
+    bottom: 228px;
+}
+.q3 img{
+    width: 270px;
+    height: 235px;
+    position: relative;
+    bottom:518px;
+    opacity:0.5 ;
+    transition: 1s linear;
+}
+.q3 h2{
+position: relative;
+left: 290px;
+bottom: 473px;
+}
+.q3 ul{
+position: relative;
+    left:270px ;
+    bottom: 741px;
+}
+.q4 img{
+width:270px ;
+height:307px;
+position: relative;
+bottom:769px ;
+opacity: 0.5;
+transition: 1s linear;
+
+}
+.q4 h2{
+position: relative;
+bottom: 726px;
+left: 290px;
+}
+.q4 ul{  
+position: relative;
+bottom: 1068px ;
+left:270px ;
+}
+
+.q1 img:hover{
+    opacity: 1;
+    transition: 1s linear;
+}
+.q2 img:hover{
+    opacity: 1;
+    transition: 1s linear;
+}
+.q3 img:hover{
+    opacity: 1;
+    transition: 1s linear;
+}
+.q4 img:hover{
+    opacity: 1;
+    transition: 1s linear;
+}
+.h1-2{
+  position: relative;  
+  left:280px ;
+  bottom: 1068px;
+}
+.q5 h2{
+position: relative;
+left: 210px ;
+    bottom: 696px;}
+.q5 p{
+position: relative;
+left: 2px;
+    bottom: 694px;
+    
+}
+.q6 h2{
+position: relative;
+left: 210px ;
+    bottom: 690px;
+}
+.q6 p{
+    position: relative;
+    left: 3px ;
+    bottom: 695px;
+}
+.q7 h2{
+position: relative;
+left: 210px ;
+    bottom: 692px;
+}
+.q7 p{
+    position: relative;
+    left: 3px ;
+    bottom: 694px;
+}
+.q5{
+    position: absolute;
+    bottom: 400px;
+}
+
+#c {
+    position: absolute;
+    bottom: 1300px;
+    text-align: center;
+}
